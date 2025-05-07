@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.site {
+    width: 1485px;
+    height: 1000px;
+    background-color: rgb(246, 246, 246);
+}
+
+.navbar {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 1400px;
+    height: 100px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 7px black;
+    border-radius: 5px;
+    color: #000;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.navbar a {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+@keyframes vaqt {
+    50% {
+        margin-top: 100px;
+
+    }
+
+    50% {
+        margin-top: 100px;
+
+    }
+}
+
+.rasm {
+    animation-name: vaqt;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 200px;
+    margin-left: 950px;
+}
+
+.m1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 112, 48);
+    position: relative;
+    top: 250px;
+    margin-left: 100px;
+}
+
+p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    position: relative;
+    top: 270px;
+    margin-left: 103px;
+}
+
+span {
+    color: rgba(255, 0, 0, 0.612);
+}
+
+.regis {
+    width: 1485px;
+    height: 600px;
+    position: absolute;
+    top: 1000px;
+    background: url(circle.svg) no-repeat center center / cover;
+    transition: all 0.3s;
+}
+
+.chap {
+    width: 742px;
+    height: 750px;
+}
+
+.m2 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(137, 197, 47);
+    position: relative;
+    top: 105px;
+    margin-left: 100px;
+}
+
+.m3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: relative;
+    top: 150px;
+    margin-left: 100px;
+
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    position: relative;
+    top: 200px;
+    margin-left: 100px;
+}
+
+span {
+    color: red;
+}
+
+button {
+    width: 270px;
+    height: 50px;
+    background-color: rgb(137, 197, 47);
+    border: 0px;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 15px;
+    position: relative;
+    top: 300px;
+    margin-left: 100px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 30px green;
+}
+
+.ong {
+    width: 738px;
+    height: 750px;
+    border-left: 5px solid gray;
+    position: absolute;
+    top: 0px;
+    margin-left: 742px;
+}
+
+.m4 {
+    font-size: 50px;
+    color: rgb(137, 197, 47);
+    font-family: monospace;
+    position: relative;
+    top: 100px;
+    margin-left: 50px;
+}
+
+.m5 {
+    font-size: 20px;
+    font-family: monospace;
+    color: gray;
+    position: relative;
+    top: 150px;
+    margin-left: 53px;
+}
+
+.m6 {
+    font-size: 50px;
+    color: rgb(137, 197, 47);
+    font-family: monospace;
+    position: relative;
+    top: 250px;
+    margin-left: 50px;
+}
+
+.m7 {
+    font-size: 20px;
+    color: gray;
+    font-family: monospace;
+    position: relative;
+    top: 300px;
+    margin-left: 50px;
+}
+
+.p1 {
+    color: black;
+}
+
+.p2 {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+    position: relative;
+    top: 700px;
+    margin-left: 100px;
+}
